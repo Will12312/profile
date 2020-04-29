@@ -42,6 +42,7 @@ body {
 
 h1 {
   font-size: 32px;
+  font-weight: 100;
 }
 
 .img-cicle {
@@ -56,11 +57,13 @@ img {
 
 h2 {
   font-size: 25px;
+  font-weight: 100;
 }
 
 a {
   text-decoration: none;
   color: #242F40;
+  font-weight: 250;
 }
 
 a:hover {
@@ -79,4 +82,16 @@ a:hover {
 .list-inline {
   list-style: none;
   padding-left: 0px;
+}
+
+.btn-test {
+  background: #E5E5E5;
+  padding: 3px 15px;
+  border: 0.5px solid #242F40;
+  border-radius: 15px;
+}
+
+.btn-test:hover {
+  color : #242F40 ;
+  font-style: italic;
 }
